@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+/*
+font-family: 'Days One', sans-serif;
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
+/*
+font-family: 'Oswald', sans-serif;
+*/
+
+:root {
+    --laranja: #22577A;
+    --verdeescuro: #22577A;
+    --verdeclaro: #41644A;
+    --brancoclaro: #F1F7F6;
+  }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+.menu {
+    width: 300px;
+    background-color: var(--verdeescuro);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo1{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.divisa-bot {
+    margin-bottom: 320px;
+}
+
+.preco {
+    width: 300px;
+}
+
+.linksmenu {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.linksmenu ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.linksmenu ul li {
+    background-color: var(--brancoclaro);
+    list-style-type: none;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    -webkit-box-shadow: 8px 7px 30px -7px rgba(255, 255, 255, 0.56);
+    -moz-box-shadow: 8px 7px 30px -7px rgba(0, 0, 0, 0.56);
+    box-shadow: 8px 7px 30px -7px rgba(0, 0, 0, 0.56);
+    transition: .5s ;
+    border-radius: 5px;
+}
+
+.linksmenu ul li:hover {
+    background-color: var(--laranja);
+    transition: .5s ;
+    color: #F1F7F6;
+}
+
+.linksmenu a {
+    text-decoration: none;
+    display: inline-block;
+    width: 280px;
+    height: 30px;
+    margin: 15px 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--verdeescuro);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.allright {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    height: 150px;
+    background-color: var(--verdeescuro);
+    width: calc(100vw - 300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-medicos {
+    cursor: pointer;
+}
+
+
+.img-medicos {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+footer {
+    height: 200px;
+    background: rgb(56,163,165);
+    background: -moz-linear-gradient(0deg, rgba(56,163,165,0.76234243697479) 0%, rgba(241,247,246,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(56,163,165,0.76234243697479) 0%, rgba(241,247,246,1) 100%);
+    background: linear-gradient(0deg, rgba(56,163,165,0.76234243697479) 0%, rgba(241,247,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#38a3a5",endColorstr="#f1f7f6",GradientType=1);
+    width: calc(100vw - 300px);
+}
+
+
+/*HEADER*/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo h1 {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 72px;
+    color: #F1F7F6;
+}
+
+.underline-titulo {
+    text-decoration: underline;
+}
+
+/*SECTION*/
+
+section {
+    height: calc(100vh - 350px);
+    background-color: var(--brancoclaro);
+    width: calc(100vw - 300px);
+    padding: 10px;
+}
+
+.part1section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-titulodesc {
+    display: inline-block;
+    width: 50%;
+}
+
+.titulo-desc {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.div-titulodesc p {
+    text-indent: 30px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.titulo-desc span {
+    text-decoration: underline;
+    color: var(--laranja);
+}
+
+.broken {
+    font-weight: bold;
+
+}
+
+.nome_clinica{
+    color: var(--laranja);
+    font-weight: bold;
+}
+
+.paragrafo2 {
+    font-style: italic;
+}
+
+.cuidado {
+    color: var(--laranja);
+    font-weight: bold;
+}
+
+.vida {
+    font-weight: bold;
+}
+
+/*FOOTER*/
+
+footer {
+    
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+footer div {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 35px;
+    color: rgb(52, 52, 52);
+}
+
+
+
+
+
+
+/*PAGINA SOBRE*/
+
+.imgfundosobreheader {
+    height: 150px;
+    background-image: url('assets/imagens/banner.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.imgfundosobreheader2 {
+    height: 150px;
+    background-image: url('assets/imagens/horarios.png');
+   background-position: center;
+    background-size: cover;
+}
+
+.divisa-top {
+    margin-top: 127px;
+}
+
+
+
+
+
+/*PAGINA HORARIOS*/
+
+table {
+    border: 1px solid black;
+    margin-top: 50px;
+    border-collapse: collapse;
+    vertical-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table tr td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+table th {
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #D0D7DE;
+}
+
+
+.div-titulodesc h2 {
+    margin-top: 50px;
+    text-indent: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(67, 67, 67);
+    text-shadow:  2px 2px 10px rgba(0, 0, 0, 0.405);
+}
+
+.div-titulodesc a {
+    color: rgb(67, 67, 67);
+}
+
+/*PAGINA CONTATO*/
+
+.imgfundosobreheader3 {
+    height: 150px;
+    background-image: url('assets/imagens/contato.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.maior {
+    width: 520px;
+    
+}
+
+
+/*Pagina de Contato*/
+
+form {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.735);
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 550px;
+    padding: 10px;
+    color: rgb(67, 67, 67);
+}
+
+form h3{
+    display: inline-block;
+    margin-top: 0px;
+    width: 50px;
+    margin-right: 32px;
+}
+
+input {
+    width: 400px;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+form button {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14;
+    width: 100px;
+}
+
+
+.contato-flex {
+    display: flex;
+}
+
+.direito {
+    margin-left: 30px;
+}
+
+.repartido {
+    width: 100%;
+}
+
+iframe {
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.735);
+}
